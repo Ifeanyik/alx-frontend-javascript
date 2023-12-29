@@ -1,4 +1,4 @@
-function getListStudents(){
+export default function getListStudents(){
     const stud_arr = [
         {
             id: 1,
@@ -18,4 +18,3 @@ function getListStudents(){
     ];
     return stud_arr;
 };
-export {getListStudents};
